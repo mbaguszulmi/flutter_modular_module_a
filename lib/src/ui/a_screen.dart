@@ -23,7 +23,7 @@ class AScreen extends StatelessWidget {
             const SizedBox(height: 8,),
             Text(authBloc.state.isLoggedIn
                 ? "${authBloc.state.name}"
-                : "Not Logged In"),
+                : "You aren't Logged In"),
             const SizedBox(height: 8,),
             ElevatedButton(
               onPressed: () {
