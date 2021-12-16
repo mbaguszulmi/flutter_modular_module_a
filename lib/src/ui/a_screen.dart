@@ -22,7 +22,7 @@ class AScreen extends StatelessWidget {
             const Text("A Home Screen"),
             const SizedBox(height: 8,),
             Text(authBloc.state.isLoggedIn
-                ? "${authBloc.state.name}"
+                ? "Hi, ${authBloc.state.name}"
                 : "You are not Logged In"),
             const SizedBox(height: 8,),
             ElevatedButton(
